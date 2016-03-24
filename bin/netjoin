@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'netjoin/rubygems'
+require 'thor'
+require 'yaml'
+require 'netjoin'
+
+Netjoin::Cli::Root.start(ARGV)
