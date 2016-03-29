@@ -6,6 +6,8 @@ Netjoin is a toolset to allow users to create VPN networks as they need.
 
 The first version only works with the Linux clients and the OpenVPN.
 
+Currently development is continued in [this repository](https://github.com/axsh/netjoin).
+
 # Requirements
 
 * CentOS 6.6
